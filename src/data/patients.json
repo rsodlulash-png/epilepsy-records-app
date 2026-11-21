@@ -1,0 +1,6 @@
+[
+  { "id": "PATIENT-001", "name": "Patient One",   "age": 8,  "epilepsyType": "absence",                  "deviceId": "SIM-DEVICE-001" },
+  { "id": "PATIENT-002", "name": "Patient Two",   "age": 15, "epilepsyType": "generalized_tonic_clonic", "deviceId": "SIM-DEVICE-002" },
+  { "id": "PATIENT-003", "name": "Patient Three", "age": 34, "epilepsyType": "focal_impaired_awareness", "deviceId": "SIM-DEVICE-003" },
+  { "id": "PATIENT-004", "name": "Patient Four",  "age": 22, "epilepsyType": "myoclonic",                "deviceId": "SIM-DEVICE-004" }
+]

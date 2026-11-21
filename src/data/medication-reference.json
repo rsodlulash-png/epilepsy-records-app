@@ -1,0 +1,25 @@
+{
+  "source": "TO BE COMPLETED: cite the clinical guideline you used (for example ILAE or a South African epilepsy guideline) and verify every entry below against it before relying on it",
+  "types": {
+    "absence": {
+      "description": "Absence seizures",
+      "medicines": ["ethosuximide", "divalproex sodium", "lamotrigine"]
+    },
+    "myoclonic": {
+      "description": "Myoclonic seizures",
+      "medicines": ["divalproex sodium", "levetiracetam"]
+    },
+    "generalized_tonic_clonic": {
+      "description": "Generalized tonic-clonic seizures",
+      "medicines": ["divalproex sodium", "lamotrigine", "levetiracetam"]
+    },
+    "focal_aware": {
+      "description": "Focal aware seizures",
+      "medicines": ["carbamazepine", "lamotrigine", "levetiracetam"]
+    },
+    "focal_impaired_awareness": {
+      "description": "Focal seizures with impaired awareness",
+      "medicines": ["carbamazepine", "lamotrigine", "levetiracetam"]
+    }
+  }
+}
