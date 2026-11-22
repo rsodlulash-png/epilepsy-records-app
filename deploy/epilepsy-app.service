@@ -1,0 +1,20 @@
+# systemd unit for Web01 and Web02.
+# Install as /etc/systemd/system/epilepsy-app.service (see README).
+# CHANGE User and the paths below if yours differ.
+[Unit]
+Description=Epilepsy Records App (Node.js)
+After=network.target
+
+[Service]
+Type=simple
+User=YOUR_SERVER_USER
+WorkingDirectory=/var/www/epilepsy-records-app
+# The app reads PORT, SERVER_NAME and OPENFDA_API_KEY from .env in WorkingDirectory
+ExecStart=/usr/bin/node src/server.js
+Restart=always
+RestartSec=3
+Environment=NODE_ENV=production
+NoNewPrivileges=true
+
+[Install]
+WantedBy=multi-user.target
